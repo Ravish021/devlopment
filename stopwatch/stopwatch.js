@@ -22,10 +22,6 @@ reset.addEventListener("click",()=>{
     document.querySelector(".mi-sec").innerHTML = "00"; 
 });
 
-
-
-
-// let timer = false;
 let millisec = 0;
 let sec = 0,min = 0,hr = 0;
 
