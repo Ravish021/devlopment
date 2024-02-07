@@ -77,8 +77,8 @@ function startwatch(){
             document.querySelector(".lap-min").innerHTML = minStr;
             document.querySelector(".lap-sec").innerHTML = secStr;
             document.querySelector(".lap-milli-sec").innerHTML = milliStr;
-            lap.classList.add("span","f");
-            console.log("lap");
+            lap.classList.add("span","f");   //fix me! to add hide property 
+            
         });
     }
 }
